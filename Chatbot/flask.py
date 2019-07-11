@@ -9,8 +9,8 @@ from slack import WebClient
 from slackeventsapi import SlackEventAdapter
 
 
-SLACK_TOKEN = ""
-SLACK_SIGNING_SECRET = ""
+SLACK_TOKEN = "xoxp-678301475330-678301475666-683369707713-941df8f59871d0c7f3fc2fd34edbca80"
+SLACK_SIGNING_SECRET = "be2ddc65c3c175a697a320fc03cdb60f"
 
 
 app = Flask(__name__)
