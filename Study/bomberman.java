@@ -83,7 +83,7 @@ public class bomberman {
 		
 //		System.out.println(map);
 		
-		for(int time = 1; time <= N; time++) {
+		for(int time = 2; time <= N; time++) {
 			plustime();
 			setbobm();
 			burst();
