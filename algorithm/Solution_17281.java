@@ -30,7 +30,7 @@ public class Solution_17281 {
 		int playcnt = 0;
 		int nowIdx = 0;
 		int nowRound = 0;
-		int[] roo = new int[5];
+		int[] roo = new int[4];
 		
 		while(true) {
 			nowIdx = playcnt % 9;
@@ -38,7 +38,17 @@ public class Solution_17281 {
 			if(hit == 0) {
 				outcnt++;
 			}else {
-				roo[hit]++;
+				for(int i = 3; i <= 1; i++){
+					if(roo[i] == 1 && i + hit >= 4){
+						score++;
+						roo[i] = 0;
+					}else if(roo[i] == 1){
+						roo[i] = 0;
+						roo[i+hit] = 1;
+					}else{
+						roo[hit] = 1;
+					}
+				}
 			}
 			
 			if(outcnt == 3) {
