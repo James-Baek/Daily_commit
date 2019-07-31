@@ -1,7 +1,7 @@
-package ssafy;
+
 import java.util.*;
 
-public class dice {
+public class Main_1175_주사위던지기2_백창현 {
 	static int N;
 	static int M;
 	static int sum = 0;
