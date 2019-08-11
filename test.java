@@ -94,7 +94,7 @@ public  class test {
         System.out.print('\n');
     }
 
-    public static void main(String[] argv) {
+    public static void main(String[] args) {
 
         Integer[] elements = {1,2,3,4};
 
