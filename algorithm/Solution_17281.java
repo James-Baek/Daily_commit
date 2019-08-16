@@ -38,7 +38,7 @@ public class Solution_17281 {
 			if(hit == 0) {
 				outcnt++;
 			}else {
-				for(int i = 3; i <= 1; i++){
+				for(int i = 3; i >= 0; i--){
 					if(roo[i] == 1 && i + hit >= 4){
 						score++;
 						roo[i] = 0;
