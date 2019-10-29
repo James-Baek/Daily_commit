@@ -1,0 +1,10 @@
+action (MakeLotto) {
+  description (로또 번호 생성기)
+  collect {
+    input (gamename) {
+      type (GameName)
+      min (Optional) max (One)
+    }
+  }
+  output (LottoList)
+}

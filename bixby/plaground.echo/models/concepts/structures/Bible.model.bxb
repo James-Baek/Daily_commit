@@ -1,0 +1,19 @@
+structure (Bible) {
+  description (성경책)
+  property (book) {
+    type (Book)
+    min (Optional) max (One)
+  }
+  property (chapter){
+    type (Chapter)
+    min (Optional) max (One)
+  }
+  property (verse){
+    type (Verse)
+    min (Optional) max (One)
+  }
+  property (content){
+    type (Content)
+    min (Optional) max (One)
+  }
+}

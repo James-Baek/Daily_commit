@@ -1,0 +1,8 @@
+endpoints {
+ action-endpoints {
+     action-endpoint (MakeLotto) {
+       accepted-inputs (gamename)
+       local-endpoint ("makeLotto.js")
+     }
+  }
+}

@@ -1,0 +1,11 @@
+action (getBible) {
+  description (성경책 가져오기)
+  type(Search)
+  collect {
+    input (book) {
+      type (Book)
+      min (Optional) max (One)
+    }
+  }
+  output (Bible)
+}

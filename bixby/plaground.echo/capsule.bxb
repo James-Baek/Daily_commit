@@ -1,0 +1,29 @@
+capsule {
+  id (playground.echo)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    use-input-views-for-selection-list-detail
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
+  }
+  capsule-imports {
+    import (viv.entity) {
+      as (entity)
+      version (3.21.0)
+    }
+    import (viv.core){
+      as (core)
+      version-from (entity)
+    }
+  }
+  store-sections{
+    section (FoodAndDrink)
+  }
+}

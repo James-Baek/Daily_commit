@@ -1,0 +1,7 @@
+structure (LottoNum) {
+  description (로또 번호 6개 조합)
+  property (number) {
+    type (Number)
+    min (Optional) max (Many)
+  }
+}

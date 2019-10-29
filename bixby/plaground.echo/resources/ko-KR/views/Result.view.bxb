@@ -1,0 +1,17 @@
+result-view{
+  match:getBible(this)
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              style (Title_M)
+              value (this.book)
+            }
+          }
+        }
+      }
+    }
+  }
+}

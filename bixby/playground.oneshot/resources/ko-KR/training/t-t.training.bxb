@@ -1,0 +1,5 @@
+train (t-t643yokjega00d9wco0e29mwb) {
+  utterance ("[g:MakeLotto] 인생한방에서 (로또)[v:GameName] 번호 만들어줘")
+  plan (Y2BmkCnISaxML8ovzUvRy89LLc7IL9HzyS8pyffJLC7BKuubmJ0KVsEgjUXWPTE31Q+IGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1572326545111)
+}

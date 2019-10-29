@@ -1,0 +1,11 @@
+structure (LottoList) {
+  description (로또 숫자 6개 조합 리스트)
+  property(round){
+      type (Round)
+      min (Optional) max (One)
+  }
+  property (lottoNum) {
+    type (LottoNum)
+    min (Optional) max (Many)
+  }
+}
