@@ -1,16 +1,42 @@
 result-view{
-  match:getBible(this)
+  match{
+    Bible(bible)
+  }
   render {
     layout {
       section {
         content {
-          single-line {
+          title-area {
+          halign (Start)
+          slot1 {
             text {
-              style (Title_M)
-              value (this.book)
+              style (Title_L)
+              value ("#{value(bible.book)}")
+            }
+          }
+          slot2 {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("#{value(bible.chapter)}장")
+              }
+            }
+          }
+          slot3 {
+            single-line {
+              text {
+                style (Detail_L_Soft)
+                value ("#{value(bible.verse)}절")
+              }
             }
           }
         }
+          paragraph {
+            style (Title_M)
+            value ("#{value(bible.content)}")
+          }
+        }
+        
       }
     }
   }

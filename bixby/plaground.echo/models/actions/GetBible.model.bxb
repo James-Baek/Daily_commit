@@ -6,6 +6,14 @@ action (getBible) {
       type (Book)
       min (Optional) max (One)
     }
+    input (chapter){
+      type (Chapter)
+      min (Optional) max (One)
+    }
+    input (verse){
+      type (Verse)
+      min (Optional) max (One)
+    }
   }
   output (Bible)
 }

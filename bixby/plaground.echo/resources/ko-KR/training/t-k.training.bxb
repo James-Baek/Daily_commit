@@ -1,0 +1,10 @@
+train (t-ktru8hsjj4o4sbokpqu7hi5sx) {
+  utterance ("[g:Bible] (요한 개시록)[v:Book:요한계시록]")
+  plan (Y2BmEC3ISaxML8ovzUvRS03OyNdzykzKSWWQQBdOTy2ByIhgaMjPz2ZgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572420193359)
+}
+train (t-ktuo5xkzav85rvz74vs16u2k3) {
+  utterance ("[g:Bible] (나훔)[v:Book:나훔] 보여줘")
+  plan (Y2BmEC3ISaxML8ovzUvRS03OyNdzykzKSWWQQBdOTy2ByIhgaMjPz2ZgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572416640037)
+}

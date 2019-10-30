@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (getBible) {
-      accepted-inputs (book)
+      accepted-inputs (book, chapter, verse)
       local-endpoint ("getBible.js")
     }
   }

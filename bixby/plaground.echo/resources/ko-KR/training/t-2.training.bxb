@@ -1,0 +1,5 @@
+train (t-2mowo7i9vz90hwsj5fncfggia) {
+  utterance ("[g:Bible] (창세기)[v:Book:창세기] (1)[v:Chapter]장 (3)[v:Verse]절 보여줘")
+  plan (Y2BlEC3ISaxML8ovzUvRS03OyNdzykzKSWWQQBdOTy2ByIhgaMjPz2YQRxd1zkgsKEktwjQ/LLWoOJWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572420626128)
+}

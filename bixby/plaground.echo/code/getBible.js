@@ -4,26 +4,37 @@ var http = require('http');
 var http = require('http');
 var db = require('tool/getDB.js');
 
-module.exports.function = function base (bookName) {
-  var book = db.getBookByNum();
-  var name = bookName;
+module.exports.function = function getBible (book, chapter, verse) {
   var chapter;
   var verse;
   var content;
-  console.log(name);
-  if(name == "창세기"){
-    chapter = 1;
-    verse = 1;
-    content = book[0].content;
-  }else{
-    chapter = 2;
-    verse = 2;
-    content = book[1].content;
-  }
 
-  console.log(book[0]);
+  if(typeof book == "undefined" || book == null || book == ""){
+    book = "창세기"
+  }
+  if(typeof chapter == "undefined" || chapter == null || chapter == ""){
+    chapter = 1
+  }
+  if(typeof verse == "undefined" || verse == null || verse == ""){
+    verse = 1
+  }
+  var books = db.getBookByNum(book);
+
+  var isFind = false;
+  for(var i = 0; i < books.length; i++){
+    if(books[i].chapter == chapter && books[i].verse == verse){
+      content = books[i].content;
+      isFind = true;
+      break;
+    }
+  }
+  if(!isFind){
+    content = "없는 구절 입니다."
+  }
+  console.log(books);
+  // console.log(books[0]);
   return {
-    book : bookName,
+    book : book,
     chapter : chapter,
     verse : verse,
     content : content    
