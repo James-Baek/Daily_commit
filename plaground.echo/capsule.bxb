@@ -1,5 +1,5 @@
 capsule {
-  id (playground.echo)
+  id (myhand.holymoly)
   version (0.1.0)
   format (3)
   targets {
@@ -24,6 +24,6 @@ capsule {
     }
   }
   store-sections{
-    section (FoodAndDrink)
+    section (EducationAndReference)
   }
 }

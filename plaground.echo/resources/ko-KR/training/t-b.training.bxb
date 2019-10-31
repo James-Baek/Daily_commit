@@ -1,10 +1,10 @@
 train (t-b7thpogp7tbt49011toxn5cou) {
   utterance ("[g:FindBible] (창세기)[v:Book:창세기] (일정)[v:Chapter:1] 보여줘")
-  plan (Y2BhkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBYxMDMwMjABSQYgDYIQAOKDRQE=)
-  last-modified (1572527495788)
+  plan (Y2BhkMytzEjMS9HLyM+pzAViPbfMvBSnzKScVAYJdKn01BKIjAi6jFN+fjaDOLqoc0ZiQUlqEQMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1572533755458)
 }
 train (t-btdvwwppzw7widhi4v40bhich) {
   utterance ("[g:FindBible] (출애굽기)[v:Book:출애굽기] 보여줘")
-  plan (Y2BmkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednMzAxMAIxA5BkZAABJggGAA==)
-  last-modified (1572499251874)
+  plan (Y2BmkMytzEjMS9HLyM+pzAViPbfMvBSnzKScVAYJdKn01BKIjAi6jFN+fjYDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1572533760887)
 }
