@@ -1,0 +1,5 @@
+train (t-cw40hffhy1ymg1be6j73uvsu4) {
+  utterance ("[g:FindBible] (디모대 전서)[v:Book:디모데전서] 보여줘")
+  plan (Y2BmkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednMzAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572499234649)
+}

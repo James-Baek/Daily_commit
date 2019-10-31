@@ -1,0 +1,5 @@
+train (t-yrdv4zy40j3uiiaudstg6a94i) {
+  utterance ("[g:FindBible] (로마서)[v:Book:로마서] 보여줘")
+  plan (Y2BmkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednMzAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572499238969)
+}

@@ -1,0 +1,60 @@
+result-view{
+	match{
+		FindBible(bibles)
+	}
+	message {
+		// 결과 화면에 보여줄 dialog를 설정합니다.
+		if(!bibles.isfind){
+			template-macro (no_result)
+		}else{
+			template-macro (result_answer)
+		}
+	}
+	render {
+		layout {
+			section {
+				content {
+					title-area{
+						halign (Center)
+						slot1{
+							text {
+								style (Title_L)
+								value ("#{value(bibles.bible.book)}")
+							}
+						}
+					}
+					
+					for-each (bibles.bible) {
+						as (item) {
+							
+							title-area {
+								halign (Start)
+								slot2 {
+									single-line {
+										text {
+											style (Title_XS)
+											value ("#{value(item.chapter)}장 - ")
+										}
+										text {
+											style (Detail_L_Soft)
+											value ("#{value(item.verse)}절")
+										}
+									}
+								}
+								
+							}
+							paragraph ("#{value(item.content)}") {
+								style (Detail_L)
+								
+							}
+              divider
+						}
+					}
+					
+				}
+				
+				
+			}
+		}
+	}
+}

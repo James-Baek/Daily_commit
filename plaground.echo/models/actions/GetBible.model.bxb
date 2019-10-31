@@ -1,0 +1,27 @@
+action (getBible) {
+  description (성경책 가져오기)
+  type(Search)
+  collect {
+    input (book) {
+      type (Book)
+      min (Optional) max (One)
+    }
+    input (chapter_from){
+      type (Chapter)
+      min (Optional) max (One)
+    }
+    input (verse_from){
+      type (Verse)
+      min (Optional) max (One)
+    }
+    input (chapter_to){
+      type (ChapterTo)
+      min (Optional) max (One)
+    }
+    input (verse_to){
+      type (VerseTo)
+      min (Optional) max (One)
+    }
+  }
+  output (FindBible)
+}

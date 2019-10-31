@@ -1,0 +1,15 @@
+train (t-k68t62n93k3x5fi1bq2yypwak) {
+  utterance ("[g:FindBible] (창세기)[v:Book:창세기] (1)[v:Chapter]장 (6)[v:Verse]절 알려줘")
+  plan (Y2BlkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBYxiKJLhKUWFacysDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572517976429)
+}
+train (t-ktru8hsjj4o4sbokpqu7hi5sx) {
+  utterance ("[g:FindBible] (요한 개시록)[v:Book:요한계시록]")
+  plan (Y2BmkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednMzAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572499225814)
+}
+train (t-ktuo5xkzav85rvz74vs16u2k3) {
+  utterance ("[g:FindBible] (나훔)[v:Book:나훔] 보여줘")
+  plan (Y2BmkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednMzAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572499243315)
+}

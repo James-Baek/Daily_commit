@@ -1,0 +1,5 @@
+train (t-btdvwwppzw7widhi4v40bhich) {
+  utterance ("[g:FindBible] (출애굽기)[v:Book:출애굽기] 보여줘")
+  plan (Y2BmkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednMzAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572499251874)
+}

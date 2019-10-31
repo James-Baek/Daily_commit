@@ -1,0 +1,11 @@
+structure (FindBible) {
+  description (__DESCRIPTION__)
+  property (bible) {
+    type (Bible)
+    min (Optional) max (Many)
+  }
+  property (isfind){
+    type(isFind)
+    min (Required)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-ae08z957rtx9ku2u9lsoslgnv) {
+  utterance ("[g:FindBible] (창세기)[v:Book:창세기] (1)[v:Chapter]장 보여줘")
+  plan (Y2BhkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBYxMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572523177209)
+}
