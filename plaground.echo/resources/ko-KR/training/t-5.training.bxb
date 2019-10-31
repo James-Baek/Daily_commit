@@ -1,0 +1,5 @@
+train (t-5y65mm5z6v2kxkbli1l8aert6) {
+  utterance ("[g:FindBible] (베드로 전서)[v:Book:베드로전서] (최장)[v:Chapter:7] (상점)[v:Verse:3] 보여줘")
+  plan (Y2BlkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBYxiKJLhKUWFacysDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572529807614)
+}
