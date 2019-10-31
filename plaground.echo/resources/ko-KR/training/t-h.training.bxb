@@ -1,5 +1,5 @@
 train (t-h9j5n3u5zyphqkk5r205knmw9) {
-  utterance ("[g:FindBible] (디 모네 전서)[v:Book:디모데전서] (1)[v:Chapter]장 (3)[v:Verse]절 보여줘")
+  utterance ("[g:FindBible] (디 모네 전서)[v:Book:디모데전서] (1장)[v:Chapter:1] (3)[v:Verse]절 보여줘")
   plan (Y2BlkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBYxiKJLhKUWFacysDAwMjAxMANpBiALAmEAJAaVAwA=)
-  last-modified (1572518088203)
+  last-modified (1572527675136)
 }

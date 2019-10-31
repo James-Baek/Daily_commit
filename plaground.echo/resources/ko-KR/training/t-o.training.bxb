@@ -1,5 +1,5 @@
 train (t-ocj9cofqout0agwowbayuerck) {
-  utterance ("[g:FindBible] (마태볶음)[v:Book:마태복음] (4)[v:Chapter]장 (5)[v:Verse]절부터 (4)[v:ChapterTo]장 (10)[v:VerseTo]절까지 보여줘")
+  utterance ("[g:FindBible] (마태볶음)[v:Book:마태복음] (4장)[v:Chapter:4] (5)[v:Verse]절부터 (4)[v:ChapterTo]장 (10)[v:VerseTo]절까지 보여줘")
   plan (Y2BnkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBZh2gGVCMlnEEWXCkstKk7FNAosDFTPxsDIwMTAzMDCwApkMwB5CIgMQHJI6gA=)
-  last-modified (1572502058233)
+  last-modified (1572527708999)
 }

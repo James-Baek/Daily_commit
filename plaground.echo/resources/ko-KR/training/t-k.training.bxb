@@ -1,7 +1,7 @@
 train (t-k68t62n93k3x5fi1bq2yypwak) {
-  utterance ("[g:FindBible] (창세기)[v:Book:창세기] (1)[v:Chapter]장 (6)[v:Verse]절 알려줘")
+  utterance ("[g:FindBible] (창세기)[v:Book:창세기] (1장)[v:Chapter:1] (6)[v:Verse]절 알려줘")
   plan (Y2BlkCzISaxML8ovzUvRS03OyNdzy8xLccpMykllkECXSk8tgciIoMs45ednM4ijizpnJBaUpBYxiKJLhKUWFacysDAwMjAxMANpBiALAmEAJAaVAwA=)
-  last-modified (1572517976429)
+  last-modified (1572527740746)
 }
 train (t-ktru8hsjj4o4sbokpqu7hi5sx) {
   utterance ("[g:FindBible] (요한 개시록)[v:Book:요한계시록]")
