@@ -1,0 +1,5 @@
+train (t-nzxbynwacv4m7cte3qax42f7u) {
+  utterance ("[g:FindBible] 홀리몰리에서 (빌리보서)[v:Book:빌립보서] (삼장)[v:Chapter:3] (오절)[v:Verse:5]부터 (사장)[v:ChapterTo:4] (칠절)[v:VerseTo:7]까지 보여줘")
+  plan (Y2BnkMytzEjMS9HLyM+pzAViPbfMvBSnzKScVAYJdKn01BKIjAi6jFN+fjaDOLqoc0ZiQUlqEaYdUImQfAZRdKmw1KLiVEyjwMJA9WwMjAxMDMwMLAysQDYDkIeAyAAkh6QOAA==)
+  last-modified (1572857449991)
+}
