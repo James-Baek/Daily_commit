@@ -3,16 +3,11 @@ capsule-info {
   developer-name (SSAFY MH)
   icon-asset (/images/logo.png)
   description ("총 66장의 성경 구절을 알려줍니다.")
-  website-url (ttps://blog.naver.com/no1428)
+  website-url (https://blog.naver.com/no1428)
   privacy-policy-url (https://github.com/TKvl6/myhand.subway/blob/master/privacy-policy.md)
   search-keywords{
     keyword (성경)
     keyword (성서)
   }
-  dispatch-name (홀리몰리)
-  dispatch-aliases{
-    alias (홀리 몰리)
-    alias (홀 리몰리)
-    alias (홀리몰 리)
-  }
+  dispatch-name (홀리 몰리)
 }
