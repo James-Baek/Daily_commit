@@ -132,7 +132,7 @@ module.exports.getBookByNum = function (index) {
     "https://api.sheety.co/37b302c6-cfe2-4a33-9ecb-208d7952e55e", // 49. 빌립보서
     "https://api.sheety.co/db465e2d-a758-49de-b7a6-995a328ffaf8", // 50. 골로새서
     "https://api.sheety.co/5574e918-12f8-4647-9dcd-a0a85dcc266f", // 51. 데살로니가전서
-    "https://api.sheety.co/ebb6356e-9007-4a7e-aa78-ace459e6420a", // 52. 데살로니가후서
+    "https://api.sheety.co/ebb6356e-9007-4a7e-aa78-ace459e6420a", // 52. 데살로니��후서
     "https://api.sheety.co/880dae84-0d1a-4863-940e-4c8a433dabdc", // 53. 디모데전서
     "https://api.sheety.co/f8f75c46-30e2-4813-88c3-bb367cb03a03", // 54. 디모데후서
     "https://api.sheety.co/894e5469-37df-41d2-9d71-7a21443f893b", // 55. 디도서
@@ -162,4 +162,9 @@ module.exports.searchBook = function(book) {
   }else{
     return this.getBookByNum(index);
   }
+}
+module.exports.getQnA = function (index) {
+  let qnaList = http.getUrl("http://a12dc2d8.ngrok.io/qna/qnaList", {format:"json"});
+  console.log(qnaList);
+  return qnaList;
 }

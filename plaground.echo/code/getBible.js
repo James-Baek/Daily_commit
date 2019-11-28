@@ -17,6 +17,7 @@ module.exports.function = function getBible(book, chapter_from, verse_from, chap
     verse_to = verse_from;
   }
   var books = db.searchBook(book);
+  var qnaList = db.getQnA();
 
   var bookList = [];
   // 책이 없는 경우 없다고 리턴
@@ -93,6 +94,7 @@ module.exports.function = function getBible(book, chapter_from, verse_from, chap
     }
   }
 
+  console.log(qnaList);
   console.log(bookList);
 
   return {
